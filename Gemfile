@@ -7,6 +7,10 @@ end
 
 gem 'bcrypt',         '3.1.11'
 
+gem 'bootstrap-datepicker-rails'
+
+gem 'jquery-rails', '4.3.1'
+
 gem 'bootstrap-sass', '3.3.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
