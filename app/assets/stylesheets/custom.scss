@@ -165,9 +165,9 @@ input {
   height: auto !important;
 }
 
-.gender input{
+.gender input {
   width: auto;
-  margin: 0px;
+  margin: 0;
 }
 
 #error_explanation {
@@ -190,6 +190,7 @@ input {
 .checkbox {
   margin-top: -10px;
   margin-bottom: 10px;
+
   span {
     margin-left: 20px;
     font-weight: normal;
@@ -199,4 +200,16 @@ input {
 #session_remember_me {
   width: auto;
   margin-left: 0;
+}
+
+/* Users index */
+.users {
+  list-style: none;
+  margin: 0;
+
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
 }
