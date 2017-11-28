@@ -5,19 +5,19 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'faker'
+
+gem 'will_paginate'
+
+gem 'bootstrap-will_paginate'
+
+# Bundle JQuery
+gem 'jquery-rails'
+
+# Bundle bcrypt
 gem 'bcrypt',         '3.1.11'
-
-gem 'faker',          '1.7.3'
-
-gem 'will_paginate',           '3.1.5'
-
-gem 'bootstrap-will_paginate', '1.0.0'
-
-gem 'bootstrap-datepicker-rails'
-
-gem 'jquery-rails', '4.3.1'
-
-gem 'bootstrap-sass', '3.3.7'
+# Bundle Bootstrap
+gem 'bootstrap-sass', '~> 3.3.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 # Use sqlite3 as the database for Active Record
