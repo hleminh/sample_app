@@ -5,6 +5,12 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'carrierwave', '1.1.0'
+
+gem 'mini_magick', '4.7.0'
+
+gem 'fog', '1.40.0'
+
 gem 'faker'
 
 gem 'will_paginate'
@@ -15,7 +21,7 @@ gem 'bootstrap-will_paginate'
 gem 'jquery-rails'
 
 # Bundle bcrypt
-gem 'bcrypt',         '3.1.11'
+gem 'bcrypt', '3.1.11'
 # Bundle Bootstrap
 gem 'bootstrap-sass', '~> 3.3.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
